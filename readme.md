@@ -1,6 +1,8 @@
 #Rio Grande
-
-Rio Grande is an online retailer founded by Jerome Basile and named after his favorite river. It started out selling books, but now they sells all sorts of things. They need your OOP / TDD skills to help them create classes for all the different types of items in their online store.
+Rio Grande is an online retailer founded by Jerome Basile and named after his
+favorite river. It started out selling books, but now they sells all sorts of
+things. They need your OOP / TDD skills to help them create classes for all the
+different types of items in their online store.
 
 ##Getting Started
 
@@ -9,7 +11,8 @@ Rio Grande is an online retailer founded by Jerome Basile and named after his fa
 
 ##Development Process
 
-We are creating this using Test Driven Development. As a refresher, here is the basic process:
+We are creating this using Test Driven Development. As a refresher, here is the
+basic process:
 
 * Create a test for a feature
 * Run the test (it should fail)
@@ -19,7 +22,9 @@ We are creating this using Test Driven Development. As a refresher, here is the 
 
 ##Working in Pairs (recommended)
 
-Due to the TDD-nature of this assignment, it's recommended that you pair up with another person and work on this collaboratively. If you decide to take this route:
+Due to the TDD-nature of this assignment, it's recommended that you pair up
+with another person and work on this collaboratively. If you decide to take
+this route:
 
 * Have one person create the tests
 * Have the other person create the code to pass the tests
@@ -49,7 +54,7 @@ console with `python3` or `ipython` (ipython provides more features).
 Load a class using an import statement, then create an instance of
 the class and try interacting with it like below:
 
-```py
+```
 $ ipython3
 In [1]: from items.digital_item import DigitalItem
 In [2]: dd = DigitalItem("wonderwall.mp3", .97)
@@ -63,11 +68,14 @@ Out[4]: 0.97
 
 ###Item
 
-Item has already been created for you, along with the tests for Item. Take a look at the file and inspect what the class does.
+Item has already been created for you, along with the tests for Item. Take a
+look at the file and inspect what the class does.
 
 ###Music, Movies, and Books
 
-Next, let's make the following classes that inherit from Item. Each class should have the following instance variables, as well as inherit from Item by calling the `super` method to pass the name and price.
+Next, let's make the following classes that inherit from Item. Each class
+should have the following instance variables, as well as inherit from Item by
+calling the `super` method to pass the name and price.
 
 Here's an example of how one class inherits from another:
 
