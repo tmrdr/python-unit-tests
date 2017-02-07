@@ -1,4 +1,7 @@
 from .item import Item
 
 class Bluray(Item):
-    pass
+    def __init__(self, name, price, runtime, director):
+      super().__init__(name, price)
+      self.runtime = runtime
+      self.director = director
